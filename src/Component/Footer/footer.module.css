@@ -1,0 +1,31 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.footerNav{
+    margin-left: 20px;
+}
+
+.footerList{
+    list-style-type: none;
+}
+
+.footerListItem{
+    margin-bottom: 16px;
+    color: black;
+}
+
+.socmedItem{
+    margin-right: 16px;
+}
+
+.aItem{
+    text-decoration: none;
+    color: black;
+}
+.aItem:hover{
+    text-decoration: none;
+    color: black;
+}

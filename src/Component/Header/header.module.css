@@ -1,0 +1,38 @@
+.navbar{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background: #F1F3FF;
+
+}
+.listMenu{
+    list-style-type: none;
+}
+.listItem{
+    padding: 10px;
+    display: inline;   
+    
+}
+.aItem{
+    text-decoration: none;
+    color: black;
+}
+.aItem:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.submit{
+    margin-left: 10px;
+    background: green;
+    border: 0;
+    border-radius: 5px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    color: #ffffff;
+}
+
+.submit:hover{
+    font-weight: 500;
+}
