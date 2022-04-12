@@ -3,6 +3,7 @@
     align-content: center;
     justify-content: space-between;
     background: #F1F3FF;
+    padding: 0;
 
 }
 .listMenu{
@@ -35,4 +36,8 @@
 
 .submit:hover{
     font-weight: 500;
+}
+
+.bagianKanan{
+    margin-top: 10px;
 }
