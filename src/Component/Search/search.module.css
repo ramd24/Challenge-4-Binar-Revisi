@@ -1,12 +1,11 @@
 .searchContainer {
-    padding: 8px;
-    border: solid 2px white;
-    border-radius: 12px;
+    padding: 16px;
+    border: solid 3px white;
+    border-radius: 16px;
     display: flex;
     max-width: 1080px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
+    height: 106px;
+    margin: 0 auto 50px auto;
     background-color: white;
     -webkit-transform: translateY(-50%);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
@@ -16,7 +15,7 @@
     flex-grow: 1;
 }
 .searchType:not(:first-child) {
-    margin-left: 8px;
+    margin-left: 16px;
 }
 .searchType label {
     display: block;
@@ -37,12 +36,14 @@
 }
 
 .submit {
-    align-self: flex-end;
+    margin-top:22px;
     margin-left: 8px;
 }
+
 .submit button {
     background: green;
     border: 0;
+    border-radius: 5px;
     height: 40px;
     line-height: 40px;
     padding: 0 16px;

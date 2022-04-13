@@ -1,0 +1,33 @@
+.emptySpace {
+    height: 260px;
+    background-color: #F1F3FF;
+    margin-top: -70px;
+}
+.detailContainer {
+    margin: 40px 100px;
+}
+.detailCard {
+    background-color: white;
+    padding: 24px;
+    box-shadow: 0px 0px 4px 0px black;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+.detailCacard {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 4px 0px black;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+.carImage{
+    width: 100%;
+    max-height: 200px;
+}
+.resultContainer{
+    display:grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}

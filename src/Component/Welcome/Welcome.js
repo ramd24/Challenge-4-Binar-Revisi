@@ -13,7 +13,7 @@ const Welcome = () => {
                             <p className="selamat">Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebututhanmu untuk sewa mobil selama 24 jam.</p>
                         </div>
                         <div className={`col-6 ${style.welcomeImage}`}>
-                            <img src="/images/img_car.png" alt="Gambar Mobil"/>
+                            <img src="/Images/img_car.png" alt="Gambar Mobil"/>
                         </div>
                     </div>
                 </div>

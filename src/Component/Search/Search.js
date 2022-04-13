@@ -1,5 +1,5 @@
 import React from 'react'
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import style from './search.module.css'
 
 const Search = () => {
@@ -27,9 +27,9 @@ const Search = () => {
                         <label>Jumlah Penumpang (optional)</label>
                         <input type="text"></input>
                     </div>
-                    <div className={style.submit}>
+                    <Link to={`/result/`} className={style.submit}>
                         <button type='submit'>Cari Mobil</button>
-                    </div>
+                    </Link>
                 </div>
             </form>
         </div>
