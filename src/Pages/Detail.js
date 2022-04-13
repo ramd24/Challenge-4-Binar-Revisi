@@ -57,7 +57,7 @@ const Detail = () => {
                 <div className='col-5'>
                     {car &&
                         <div className={`text-center ${style.detailCacard}`}>
-                            <img src='/Images/resultcar.png' className={style.carImage} alt=''/>
+                            <img src={car.image} className={style.carImage} alt=''/>
                             <div className='card-body text-left'>
                                 <h6 className='font-weight-bold'>{car.name}</h6>
                                 <p className='card-text' style={{color: '#8A8A8A'}}>
