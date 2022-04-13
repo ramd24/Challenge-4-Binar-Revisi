@@ -19,19 +19,22 @@ const Result = () => {
     <>
         <div className={style.emptySpace}></div>
         <Search />
-        <div className={style.resultContainer}>
-          {cars && cars.map((car, index) => {
-              return(
-                      <CarCard 
-                          key={index}
-                          id={car.id}
-                          name={car.name}
-                          price={car.price}
-                          image={car.image}
-                      />
-                    )        
-                })}
+        <div className='container'>
+          <div className={style.resultContainer}>
+            {cars && cars.map((car, index) => {
+                return(
+                        <CarCard 
+                            key={index}
+                            id={car.id}
+                            name={car.name}
+                            price={car.price}
+                            image={car.image}
+                        />
+                      )        
+                  })}
+          </div>
         </div>
+        
     </>
   )
 }

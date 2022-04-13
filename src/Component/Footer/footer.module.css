@@ -4,9 +4,6 @@
     margin-top: 40px;
 }
 
-.footerNav{
-    margin-left: 20px;
-}
 
 .footerList{
     list-style-type: none;
@@ -18,7 +15,7 @@
 }
 
 .socmedItem{
-    margin-right: 16px;
+    margin-right: 8px;
 }
 
 .aItem{

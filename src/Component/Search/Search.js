@@ -11,8 +11,8 @@ const Search = () => {
                     <div className={style.searchType}>
                         <label>Tipe Driver</label>
                         <select placeholder='Pilih Tipe Driver'>
-                            <option>Driver Jarak Jauh</option>
-                            <option>Driver Jarak Dekat</option>                           
+                            <option>Dengan Sopir</option>
+                            <option>Tanpa Sopir (Lepas Kunci)</option>                           
                         </select>
                     </div>
                     <div className={style.searchType}>
